@@ -1,1 +1,2 @@
-# code-wars
+# 🥋 code-wars
+###  👨‍💻 Repo for practicing JavaScript
