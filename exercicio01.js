@@ -1,7 +1,7 @@
 // Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. 
 // Essentially, rearrange the digits to create the highest possible number.
 
-function descend (n) {
+function descendingOrder(n){
   if ( n < 0) {
     return false;
   }
@@ -9,5 +9,6 @@ function descend (n) {
   let str = conv.split('');
   str.sort((function(a, b){return b-a}));
   let concat = str.join('');
-  return concat;
-}  
+  let result = parseInt(concat);
+  return result;
+} 
