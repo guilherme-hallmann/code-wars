@@ -9,4 +9,7 @@ function XO(str) {
   return y;
 }
 
-console.log(XO('xxo'));
+// function XO(str) {
+//   return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length;
+// }
+// answer with simpler solution that i didn't think of LOL
